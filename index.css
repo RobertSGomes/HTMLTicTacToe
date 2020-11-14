@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    height: 20%;
+    background-color: rgb(246, 249, 250);
+}
+
+.title .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title .container label {
+    color: black;
+    font-family: Grandstander;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+.main {
+    height: 80%;
+    background-color: rgb(61, 22, 85);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .row {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main .row .col-sm-6 .container {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: rgb(80, 32, 108);
+    height: 100%;
+}
+
+.main .row .col-sm-6 .container .row {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: calc(100%/3);
+}
+
+.main .row .col-sm-6 .container .row:not(:last-child) {
+    border-bottom: 4px solid rgb(54, 22, 73);
+}
+
+.main .row .col-sm-6 .container .row .col-sm-4 {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .row .col-sm-6 .container .row .col-sm-4:not(:last-child) {
+    border-right: 4px solid rgb(54, 22, 73);
+}
+
+.main .row .col-sm-6 .container .row .col-sm-4 button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: Syne;
+    font-size: 60px;
+}
+
+.main .row .col-sm-6 .container .row .col-sm-4 button:focus {
+    outline: none;
+}
+
+.main .row .col-sm-3:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .row .col-sm-3:last-child .container {
+    background-color: rgb(80, 32, 108);
+    border-radius: 10px;
+    border: 4px solid rgb(54, 22, 73);    
+    margin: 0;
+    padding: 0;
+}
+
+.main .row .col-sm-3:last-child .container p {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Syne;
+    margin: 0;
+}
+
+.main .row .col-sm-3:last-child .container .vez {
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 0px 0px 6px 6px;
+    margin: 0;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main .row .col-sm-3:last-child .container .vez p {
+    color: black;
+    font-size: 60px;
+}

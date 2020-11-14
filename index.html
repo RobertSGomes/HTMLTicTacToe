@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>TicTacToe</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bibliotecas -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Uploads -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="uploads/logo.png">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Grandstander' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Syne' rel='stylesheet'>
+</head>
+<body>
+    <div class="container-fluid title">
+        <div class="container">
+            <img src="uploads/logo.png" height="50%">
+            <label>TicTacToe</label>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button id="1" onclick="Fill(1)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="2" onclick="Fill(2)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="3" onclick="Fill(3)"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button id="4" onclick="Fill(4)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="5" onclick="Fill(5)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="6" onclick="Fill(6)"></button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <button id="7" onclick="Fill(7)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="8" onclick="Fill(8)"></button>
+                        </div>
+                        <div class="col-sm-4">
+                            <button id="9" onclick="Fill(9)"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="container">
+                    <p>Turn</p>
+                    <div class="container vez">
+                        <p id="turn">x</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
